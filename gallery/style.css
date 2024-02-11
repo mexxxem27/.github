@@ -1,0 +1,111 @@
+*{
+    font-family:   'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+  .my-class-nav{
+    font-size: 17px;
+  /* flex-grow: 2; */
+}
+.my-class-nav ul li{
+  padding-right: 1.3rem;
+  padding-left: 1.3rem;
+  color: black;
+}
+.navbar-brand2 {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.85rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+}
+.carousel-item {
+height: 100vh;
+min-height: 350px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+@media (min-width: 1200px){
+.my-class-nav ul li a{
+padding-right: 1.5rem;
+padding-left: 1.5rem;
+}}
+/* footer  */
+footer{
+    margin-top: 4%;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    padding: 30px 30px 15px 30px;
+    display: flex;
+}
+.icon{
+ text-align: center;
+
+}
+.dev{
+    color: white;
+    margin-right: 1%;
+}
+.icon svg{
+    margin-right: 0.2%;
+    cursor: pointer;
+}
+.icon hr{
+    color: white;
+    margin: 5px;
+}
+.footer-text{
+    color : white;
+    font-size: 17px;
+}
+
+/* первый блок */
+.my-container1{
+    margin: 8% 10% 0% 10%;
+    /* border: 1px solid red; */
+}
+
+
+/* gallery */
+div#quad { 
+    background-color: #000; 
+    font-size: 0; width: 60%; 
+    margin: 0 auto;
+    box-shadow: 0 0 12px rgba(0,0,0,0.8);
+  }
+  div#quad figure { 
+    margin: 0; width: 50%; 
+    height: auto; transition: 1s; 
+    display: inline-block; 
+    position: relative; overflow: hidden; 
+  }
+  div#quad figure:hover { cursor: pointer; z-index: 4; }
+  div#quad figure img { width: 100%; height: auto; }
+  div#quad figure:nth-child(1) { transform-origin: top left; }
+  div#quad figure:nth-child(2) { transform-origin: top right; }
+  div#quad figure:nth-child(3) { transform-origin: bottom left; }
+  div#quad figure:nth-child(4) { transform-origin: bottom right; }
+  div#quad figure figcaption { 
+    margin: 0; opacity: 0; 
+    background: rgba(0,0,0,0.3); 
+    color: #fff; padding: .3rem; 
+    font-size: 1.2rem; 
+    position: absolute; 
+    bottom: 0; width: 100%;
+    transition: 1s 1s opacity; 
+  }
+  .expanded { transform: scale(2); z-index: 5;  }
+  div#quad figure.expanded figcaption { opacity: 1; }
+  div.full figure:not(.expanded) { pointer-events: none; }
+h1{
+      text-align: center;
+      color: white;
+  }
+  /* первый блок */
+.my-container2{
+    margin: 3% 10% 0% 10%;
+    /* border: 1px solid red; */
+}

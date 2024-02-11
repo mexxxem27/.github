@@ -1,0 +1,201 @@
+*{
+    font-family:   'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+  .my-class-nav{
+    font-size: 17px;
+  /* flex-grow: 2; */
+}
+.my-class-nav ul li{
+  padding-right: 1.3rem;
+  padding-left: 1.3rem;
+  color: black;
+}
+.navbar-brand2 {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.85rem;
+  text-decoration: none;
+  white-space: nowrap;
+  color: black;
+}
+.carousel-item {
+height: 100vh;
+min-height: 350px;
+background: no-repeat center center scroll;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+@media (min-width: 1200px){
+.my-class-nav ul li a{
+padding-right: 1.5rem;
+padding-left: 1.5rem;
+}}
+
+/* первы блок */
+.my-container1  {
+    /* border: 1px solid red; */
+    margin: 0% 10% 0% 10%;
+    /* ------- */
+display: flex;
+justify-content: space-between;
+}
+.my-block-1{
+    margin-top: 8%;
+}
+.img-text{
+ font-size: 45px;   
+ /* border: 1px solid green; */
+ width: 65%;
+line-height: 43px;
+margin-bottom: 5%;
+margin-top: 26%;
+margin-left: 15%;
+}
+.img-text-2{
+    /* border: 1px solid orange; */
+    width: 70%;
+    font-size: 18px;
+    margin-left: 15%;
+}
+.my-block-2{
+    margin-top: 8%;
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column; */
+}
+/* .c1-bg-1{
+    background-color: pink;
+    width: 250px;
+    height: 300px;
+}
+.c1-bg-2{
+    background-color: greenyellow;
+    width: 300px;
+    height: 300px;
+ 
+} */
+.my-container2{
+    margin: 0% 10% 0% 10%;
+}
+.clock-image{
+    margin-top: 5%;
+}
+.clock-text{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 20%;
+    font-size: 22px;
+    margin-top:5% ;
+    margin-left: 58%;
+    text-align: justify;
+    line-height: 35px;
+}
+.my-container3{
+    margin: 4% 10% 0% 10%;
+   
+}
+.dress{
+    display: flex;
+    justify-content: space-between;
+}
+.dress-text{
+    font-size: 70px;
+width: 50%;
+}
+.my-container4{
+    margin: 4% 10% 0% 10%;
+   
+}
+.koktel-text{
+    position: absolute;
+    width: 21%;
+    text-align: justify;
+    margin: 8% 0% 0% 23%;
+    font-size: 22px;
+    line-height: 40px;
+    
+}
+.abzats{
+    text-indent: 41px;
+}
+.koktel-text-2{
+    position: absolute;
+    width: 22%;
+    text-align: justify;
+    margin: 35% 0% 0% 52%;
+    font-size: 22px;
+    line-height: 32px;
+
+}
+.my-container5{
+    margin: 4% 10% 0% 10%;
+   
+}
+.c5-text-1{
+    position: absolute;
+    width: 40%;
+    margin: 19% 0% 0% 36%;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 30px;
+    line-height: 32px;
+}
+.c5-text-3{
+    position: absolute;
+    width: 40%;
+    margin: 27% 0% 0% 36%;
+    text-align: justify;
+    font-size: 20px;
+    text-indent: 30px;
+    line-height: 32px;
+}
+.c5-text-2{
+    position: absolute;
+    width: 21%;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 57.5% 50% 0% 28%;
+  
+}
+.my-container6{
+    margin: 4% 10% 0% 10%;
+}
+.c6-text{
+    position: absolute;
+    margin: 38% 0% 0% 47%;
+    width: 30%;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: justify;
+}
+footer{
+    margin-top: 4%;
+    width: 100%;
+    background-color: rgb(48, 48, 48);
+    padding: 30px 30px 15px 30px;
+    display: flex;
+}
+.icon{
+ text-align: center;
+
+}
+.dev{
+    color: white;
+    margin-right: 1%;
+}
+.icon svg{
+    margin-right: 0.2%;
+    cursor: pointer;
+}
+.icon hr{
+    color: white;
+    margin: 5px;
+}
+.footer-text{
+    color : white;
+    font-size: 17px;
+}
